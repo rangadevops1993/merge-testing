@@ -1,0 +1,7 @@
+ansible playbook for java package 
+
+---
+- hosts: localhost
+  tasks:
+-name: install java
+       - java
