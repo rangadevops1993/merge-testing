@@ -1,0 +1,5 @@
+awsresource "aws_instance" "demo-server"{
+key_pair = "centos"
+ami = "ami-8k60ke53jde8tbn"
+instance_type = "t2_nano"
+}
